@@ -3,6 +3,7 @@ import Head from 'next/head';
 import '../styles/globals.css';
 import '../styles/Navigation.css';
 import Navigation from '../components/Navigation';
+import Search from '../components/Search'
 
 
 function MyApp({ Component, pageProps }) {
@@ -13,6 +14,7 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navigation />
+      <Search />
       <Component {...pageProps} />
     </>
   );
