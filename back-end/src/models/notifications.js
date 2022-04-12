@@ -25,4 +25,4 @@ const schema = new mongoose.Schema(
 
 const Notification = mongoose.model('Notification', schema);
 
-export default Notification;
+module.exports = Notification;
